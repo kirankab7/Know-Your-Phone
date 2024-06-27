@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/androidVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Version"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/apiLevelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API Level"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/securityPatchLevelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security Patch Level"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bootloaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bootloader"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/buildIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build ID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/javaVmTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java VM"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/openGlesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenGLES"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kernelArchitectureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kernel Architecture"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kernelVersionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kernel Version"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rootAccessTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Root Access"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/googlePlayServicesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Play Services"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/systemUptimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Uptime"
+        android:textSize="18sp" />
+</LinearLayout>

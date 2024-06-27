@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/modelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/coresTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cores"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/architectureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Architecture"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/clockSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clock Speed"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/numberOfCpusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of CPUs"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gpuTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPU"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/modelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/manufacturerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manufacturer"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/brandTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/boardTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Board"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hardwareTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardware"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/screenSizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Size"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/screenResolutionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Resolution"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/screenDensityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen Density"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/totalRamTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total RAM"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/availableRamTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available RAM"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/internalStorageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal Storage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/availableInternalStorageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Internal Storage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/externalStorageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External Storage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/availableExternalStorageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available External Storage"
+        android:textSize="18sp" />
+</LinearLayout>
